@@ -9,7 +9,14 @@
 .nav{
  display: flex;
  justify-content: space-between;
- margin: 0 150px; 
+ padding: 0 150px;
+ background-color: white;
+ position: fixed;
+ top: 0;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 100%;
+ z-index: 1000;
 }
 .nav-logo{
  display: flex;
@@ -71,10 +78,10 @@
  left: 0;
  bottom: -5px;
  font-size: 25px;
- color: rgb(23, 195, 243);
+ color: rgb(0, 0, 0);
 }
 .nav-button i:hover{
- color: red;
+ color:rgb(0, 170, 255);
  cursor: pointer;
 }
 .nav-button .up{
@@ -86,4 +93,118 @@
 }
 /* nav bar end  */
 /* header section end  */
+
+/* main section start  */
+.main{
+  /* border: 2px solid; */
+  margin: 0 150px;
+  margin-top: 90px;
+  margin-top: 100px;
+  position: relative;
+}
+/* left section start here  */
+.left-main{
+/* border: 2px solid; */
+width: 50%;
+position: absolute;
+left: -10%;
+opacity: 0;
+animation: leftIn 1.5s ease forwards;
+}
+@keyframes leftIn{
+  to{
+    left:0;
+    opacity: 1;
+  }
+}
+.left-main i{
+  color: rgb(0, 255, 0);
+  font-size: 15px;
+  margin: 0 5px;
+}
+.left-main .build-et{
+  font-size: 14px;
+}
+.left-main .span-head{
+  font-size: 40px;
+  font-weight: 900;
+}
+.left-main .text-left-1{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(75, 102, 137);
+}
+.left-main .left-btn{
+  height: 40px;
+  width: 140px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background:rgb(16, 78, 235) ;
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+}
+.left-main .left-btn:hover{
+  background-color: rgb(21, 70, 194);
+  cursor: pointer;
+}
+.picture{
+  display: flex;
+  margin-top: 50px;
+}
+.picture .side-picture-text{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.picture .side-picture-text span{
+  color: rgba(0, 0, 0, 0.598);
+}
+.picture .side-picture-text a{
+  text-decoration: none;
+}
+.picture3{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: fit-content;
+}
+.image-list{
+  margin-left:-15px ;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 15px;
+}
+
+.img3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* main left section end here */
+/* --------- */
+/* main right section start hare  */
+.main .right-main{
+  /* border: 2px solid; */
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+.right-img-div{
+  width: 100%;
+  height: calc(100% - 3%);
+}
+.right-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+/* main right section end hare  */
+/* --------- */
+/* main section end  */
  
