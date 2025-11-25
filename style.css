@@ -1,0 +1,89 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+/* header section start */
+/* nav-bar start  */
+.nav{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 150px; 
+}
+.nav-logo{
+ display: flex;
+ position: relative;
+ width: 170px;
+}
+.nav-logo h2{
+ position: absolute;
+ right: 0;
+ bottom: 10px;
+}
+.nav-logo img{
+ height: 70px;
+ width: 60px;
+
+}
+.nav-list{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  column-gap: 15px;
+
+}
+.nav-list a{
+ position: relative;
+ padding: 0px;
+ text-decoration: none;
+ font-size: 16px;
+ color: black;
+ margin: 0px;
+}
+.nav-list .home{
+ color:rgb(0, 170, 255);
+}
+.nav-list a:hover{
+ color:blue;
+}
+.nav-button{
+ position: relative;
+ right: 0px;
+ display: flex;
+ align-items: center;
+}
+.nav-button button{
+ padding: 10px 20px;
+ border:1px solid rgb(0, 170, 255) ;
+ border-radius: 10px;
+ background:none;
+ margin: 0 10px;
+ color: rgb(0, 170, 255);
+}
+.nav-button button:hover{
+ background-color: rgb(0, 170, 255);
+ color: white;
+ cursor: pointer;
+}
+.nav-button i{
+ position: relative;
+ left: 0;
+ bottom: -5px;
+ font-size: 25px;
+ color: rgb(23, 195, 243);
+}
+.nav-button i:hover{
+ color: red;
+ cursor: pointer;
+}
+.nav-button .up{
+ background-color:  rgb(0, 170, 255);
+ color: white;
+}
+.nav-button .up:hover{
+ color: blue;
+}
+/* nav bar end  */
+/* header section end  */
+ 
