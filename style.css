@@ -244,5 +244,116 @@ margin-top: 17px;
  color: rgba(0, 0, 0, 0.475);
 }
 /* rating div end */
+/* ------- */
+/* phone div start here  */
+.phone{
+  position: relative;
+  height: 550px;
+  margin-top: 100px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.left-phone{
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 0;
+}
+.left-phone .watch-phone{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.648);
+}
+.rignt-phone{
+  position: absolute;
+width: 50%;
+height: 100%;
+animation: rightIn 1s ease-in-out forwards;
+right: -70px;
+opacity: 0;
+}
+@keyframes rightIn{
+  to{
+    right: 0;
+    opacity: 1;
+  }
+}
+.rignt-phone i{
+   color: rgb(0, 255, 0);
+  font-size: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px  rgba(0, 255, 0, 0.347);
+  border: none;
+  outline: none;
+}
+.icon-right-phone{
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.heading-right-phone{
+  margin-top: 40px;
+}
+.heading-right-phone .right-phone-heading{
+  font-size: 35px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.782);
+}
+.heading-right-phone .right-phone-pragraph{
+  font-weight: 600;
+  color: black;
+}
+.rignt-phone-result{
+  padding: 0 10px;
+  margin-top: 30px;
+}
+.phone-result-all-1{
+  position: relative;
+  height: 50px;
+}
+.phone-result-all-div1{
+  position: absolute;
+  left: 0;
+  color: rgba(0, 0, 0, 0.52);
+}
+.phone-result-all-div2{
+  position: absolute;
+  right:10px;
+  color: rgba(0, 0, 0, 0.52);
+}
+.phone-result-all-div3{
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: rgba(20, 107, 123, 0.36);
+  bottom: 10px;
+  border-radius: 2px;
+}
+.phone-result-all-div3-upper-1{
+  position: absolute;
+  height: 4px;
+  width: 95%;
+  background-color: rgba(9, 122, 251, 0.924);
+  bottom: 10px;
+  border-radius: 2px;
+}
+.phone-result-all-div3-upper-2{
+  position: absolute;
+  height: 4px;
+  width: 80%;
+  background-color:rgba(9, 122, 251, 0.924);
+  bottom: 10px;
+  border-radius: 2px;
+}
+.phone-result-all-div3-upper-3{
+  position: absolute;
+  height: 4px;
+  width: 85%;
+  background-color: rgba(9, 122, 251, 0.924);
+  bottom: 10px;
+  border-radius: 2px;
+}
+/* phone div end here  */
 /* main section end  */
- 
