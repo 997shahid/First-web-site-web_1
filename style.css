@@ -355,5 +355,49 @@ opacity: 0;
   bottom: 10px;
   border-radius: 2px;
 }
+
+/* gray background start here  */
+.gray-background{
+width: 100%;
+background-color: rgba(37, 36, 36, 0.011);margin-top: 90px;
+/* border: 2px solid; */
+}
+.gray-header-div{
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.gray-header-1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.gray-header-1 i{
+  color: rgb(0, 255, 0);
+  font-size: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px  rgba(0, 255, 0, 0.347);
+  border: none;
+  outline: none;
+}
+.gray-header-1 span{
+}
+.gray-header-2{
+}
+.gray-header-2 span{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.668);
+}
+/* gray background end here  */
+
 /* phone div end here  */
 /* main section end  */
