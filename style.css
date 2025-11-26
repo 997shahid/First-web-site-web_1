@@ -614,6 +614,7 @@
 }
 .picture-a a:hover .picture-1 img{
   transform: scale(1.1);
+  opacity: 0.8;
 }
 .pecture-head{
  color: black;
