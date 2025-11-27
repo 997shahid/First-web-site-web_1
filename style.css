@@ -821,7 +821,126 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.355);
  }
  .btn-div .btn:hover{
   background-color: rgb(0, 121, 181);
+  cursor: pointer;
  }
+ .footer-2{
+  margin-top: 90px;
+border-top: 1px solid rgba(255, 255, 255, 0.543);
+border-bottom: 1px solid rgba(255, 255, 255, 0.543);
+
+  display: flex;
+  justify-content: space-around;
+ }
+ .last-footer-1{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .last-footer-1 h1{
+  color: rgba(255, 255, 255, 0.942);
+ }
+ .last-footer-1 .btn{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #03c0fa;
+  color: white;
+ }
+ .last-footer-1 .btn:hover{
+    background-color: #02aadd;
+ }
+ .last-footer-2{
+border-left: 1px solid rgba(255, 255, 255, 0.543);
+border-right: 1px solid rgba(255, 255, 255, 0.543);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.sup-div .Support{
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 2px;
+}
+.sup-div .last-ext{
+  color: white;
+  font-size: 18px;
+}
+.sup-div .ph{
+  color: rgba(255, 255, 255, 0.593);
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  margin-bottom: 10px;
+}
+.face {
+  margin-top: 5px;
+}
+.face a{
+  color: white;
+  font-size: 30px;
+}
+.face a:hover{
+  color: #02aadd;
+}
+.last-footer-3{
+  /* border: 2px solid white; */
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.last-head{
+  width: 95%;
+}
+.last-head h3{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.last-head p{
+  color: rgba(255, 255, 255, 0.651);
+  padding: 10px;
+}
+.last-form {
+  margin-top: 20px;
+}
+.last-form input{
+  border: none;
+  height: 40px;
+  width: 110px;
+  padding: 10px;
+  border-radius: 20px 0 0 20px;
+}
+.last-form button{
+  border: none;
+  height: 40px;
+  padding: 0 10px;
+  margin-left: -5px;
+  margin-top: 10px;
+  border-radius: 0 20px 20px 0;
+  background-color: #02a1d1;
+  color: white;
+  font-size: 14px;
+}
+.last-form button:hover{
+  background-color: #0289b3;
+  cursor: pointer;
+}
+.footer-3{
+height: 100px;
+}
 /* footer end  */
 
 
